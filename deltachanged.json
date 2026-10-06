@@ -1,0 +1,41 @@
+[
+  {
+    "id": "player_model_swap",
+    "purpose": "swap the protagonist's look to Kris",
+    "location_in_changed": null,
+    "method": null,
+    "verified": false,
+    "visual": "kris_overworld"
+  },
+  {
+    "id": "encounter_trigger",
+    "purpose": "detect the first creature encounter and start the dodge battle",
+    "location_in_changed": null,
+    "method": null,
+    "verified": false,
+    "encounter": "first_creature_dodge"
+  },
+  {
+    "id": "input_read",
+    "purpose": "read movement input to steer the soul during the battle",
+    "location_in_changed": null,
+    "method": null,
+    "verified": false
+  },
+  {
+    "id": "battle_win",
+    "purpose": "creature backs off, return to the game",
+    "location_in_changed": null,
+    "method": null,
+    "verified": false,
+    "encounter": "first_creature_dodge"
+  },
+  {
+    "id": "battle_lose",
+    "purpose": "restart the dodge battle",
+    "location_in_changed": null,
+    "method": null,
+    "verified": false,
+    "encounter": "first_creature_dodge"
+  }
+]
